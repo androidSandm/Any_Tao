@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F5F7"
+    android:orientation="vertical"
+    tools:context="com.example.boylucky.anytao.view.SousuoActivity">
+<com.example.boylucky.anytao.view.custom.MySelect
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:id="@+id/my_sel"
+    ></com.example.boylucky.anytao.view.custom.MySelect>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="热搜"
+        android:textSize="18dp"
+        android:textColor="#f00"
+        android:layout_margin="10dp"
+        />
+    <com.example.boylucky.anytao.view.custom.FluidLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/f_layout"
+        android:layout_margin="10dp"
+        >
+    </com.example.boylucky.anytao.view.custom.FluidLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="历史记录"
+        android:textSize="18dp"
+        android:textColor="#f00"
+        android:layout_margin="10dp"
+        />
+    <com.example.boylucky.anytao.view.custom.FluidLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lishi_layout"
+        android:layout_margin="10dp"
+        >
+        <Button
+            android:id="@+id/del"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="清空历史记录"
+            />
+    </com.example.boylucky.anytao.view.custom.FluidLayout>
+</LinearLayout>
+
+</LinearLayout>
