@@ -8,5 +8,8 @@ public class BaseModel implements IBaseModel{
     @Override
     public void serverFail(String msg) {
 
+
+
+
     }
 }

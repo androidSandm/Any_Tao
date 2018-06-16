@@ -20,6 +20,7 @@ public class DetailsActivity extends BaseActivity {
     Banner mImgBan;
     @BindView(R.id.ban_tv)
     TextView mBanTv;
+    
     @BindView(R.id.ban_price)
     TextView mBanPrice;
     @BindView(R.id.shop)
